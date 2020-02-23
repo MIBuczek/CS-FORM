@@ -177,6 +177,19 @@
       "Attachment": "0",
       "Description": "Waiting for answers",
       "id": 48
+    },
+    {
+      "Category": "Budget",
+      "RaisedOn": "2020-02-01",
+      "UpdateOn": "2020-02-23",
+      "Status": "Important",
+      "Email": "janek@jankowski.pl",
+      "ImpacedCountries": [],
+      "ImpacedBuisnesses": "Germany",
+      "ImpacedEntities": "",
+      "Attachment": "0",
+      "Description": "Kasa sie nie zgadza",
+      "id": 49
     }
   ]
 }

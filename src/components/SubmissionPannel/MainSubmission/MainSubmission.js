@@ -13,7 +13,7 @@ class MainSubmission extends React.Component {
    Category: '',
    RaisedOn: '',
    UpdateOn: '',
-   Status: 'działa',
+   Status: '',
    Email: '',
    ImpacedCountries: [],
    ImpacedBuisnesses: '',
@@ -47,10 +47,7 @@ class MainSubmission extends React.Component {
   if (
    Category.length < 2 &&
    Status.length < 2 &&
-   ImpacedCountries.length < 2 &&
-   ImpacedEntities.length < 2 &&
-   ImpacedBuisnesses.length < 2 &&
-   ImpacedEntities.length < 2
+   ImpacedBuisnesses.length < 2
   ) {
    errors.push('File must hes at liest 2 letter word');
   }
@@ -169,7 +166,7 @@ class MainSubmission extends React.Component {
        category={'Country'}
        type={'text'}
        placeholder={'Impacted Businesses'}
-       name={'ImpactedBusinesses'}
+       name={'ImpacedBuisnesses'}
        onChange={e => this.handleChange(e)}
       />
      </div>
@@ -262,7 +259,7 @@ class MainSubmission extends React.Component {
        type={'button'}
        title={'Cancel'}
        typ="button"
-       newPage={this.props.newPage}
+       onClick={e => this.props.newPage(e)}
       />
       <Button type={'submit'} title={'Save'} />
      </div>
