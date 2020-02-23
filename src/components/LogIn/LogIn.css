@@ -1,0 +1,33 @@
+.wrapper__form {
+ width: 500px;
+ height: 200px;
+ border: 2px solid #000;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: black;
+ margin: auto;
+}
+.wrapper__input {
+ width: 90%;
+ height: 50px;
+ font-size: 1.2rem;
+}
+.wrapper__button {
+ width: 90%;
+ height: 30px;
+ background: #fff;
+ border: none;
+ margin-top: 5px;
+ font-size: 1rem;
+ font-weight: 500;
+}
+.wrapper__button:active {
+ border: 3px solid #9f9f9f;
+}
+
+.wrapper__img {
+ width: 50%;
+ height: auto;
+}

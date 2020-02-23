@@ -1,0 +1,182 @@
+{
+  "Users": [
+    {
+      "DisplayName": "Ali Gator (DABA)",
+      "Name": "Ali",
+      "Surname": "Gator",
+      "Department": "DABA",
+      "Email": "ali.gator@company.com",
+      "Id": 12345,
+      "Manager": true,
+      "Roles": [
+        "Manager",
+        "Account Manager",
+        "SPOC"
+      ]
+    },
+    {
+      "DisplayName": "Baba Yaga (DABA)",
+      "Name": "Baba",
+      "Surname": "Yaga",
+      "Department": "DABA",
+      "Email": "baba.yaga@company.com",
+      "Id": 12350,
+      "Manager": false,
+      "Roles": [
+        "Owner",
+        "Account Manager"
+      ]
+    },
+    {
+      "DisplayName": "Red Riding Hood (LFAB)",
+      "Name": "Red Riding",
+      "Surname": "Hood",
+      "Department": "LFAB",
+      "Email": "red.hood@company.com",
+      "Id": 12355,
+      "Manager": false,
+      "Roles": [
+        "Compliance",
+        "SPOC"
+      ]
+    },
+    {
+      "DisplayName": "Luke Spooke (RUB)",
+      "Name": "Luke",
+      "Surname": "Spooke",
+      "Department": "RUB",
+      "Email": "luke.spooke@company.com",
+      "Id": 12892,
+      "Manager": true,
+      "Roles": [
+        "Owner"
+      ]
+    },
+    {
+      "DisplayName": "Jack O�Lantern (RUB)",
+      "Name": "Jack",
+      "Surname": "O�Lantern",
+      "Department": "RUB",
+      "Email": "jack.olantern@company.com",
+      "Id": 12855,
+      "Manager": false,
+      "Roles": [
+        "WUBWUBWUB",
+        "Drake"
+      ]
+    }
+  ],
+  "Requests": [
+    {
+      "id": 12,
+      "RaisedOn": "12.02.2018",
+      "UpdateOn": "14.03.2018",
+      "Status": "New",
+      "Category": "Budget",
+      "ImpacedBuisnesses": "IT",
+      "ImpacedCountries": "Indie",
+      "ImpacedEntities": "IT team",
+      "APACGCLead": "Manager",
+      "Attachment": "2",
+      "Email": "jack.olantern@company.com",
+      "Description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 22,
+      "RaisedOn": "11.01.2018",
+      "UpdateOn": "14.04.2018",
+      "Status": "Draft",
+      "Category": "Budget",
+      "ImpacedBuisnesses": "Finance",
+      "ImpacedCountries": "Japan",
+      "ImpacedEntities": "Finance team",
+      "APACGCLead": "General Menager",
+      "Attachment": "5",
+      "Email": "luke.spooke@company.com",
+      "Description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 47,
+      "RaisedOn": "04.04.2018",
+      "UpdateOn": "18.04.2018",
+      "Status": "New",
+      "Category": "Employ",
+      "ImpacedBuisnesses": "Finance",
+      "ImpacedCountries": "Chaina",
+      "ImpacedEntities": "Finance team",
+      "APACGCLead": "General Menager",
+      "Attachment": "2",
+      "Email": "red.hood@company.com",
+      "Description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 16,
+      "RaisedOn": "04.04.2018",
+      "UpdateOn": "18.04.2018",
+      "Status": "New",
+      "Category": "Primary",
+      "ImpacedBuisnesses": "Export",
+      "ImpacedCountries": "Germany",
+      "ImpacedEntities": "Finance team",
+      "APACGCLead": "Asistance Menager",
+      "Attachment": "0",
+      "Email": "baba.yaga@company.com",
+      "Description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 46,
+      "RaisedOn": "01.06.2018",
+      "UpdateOn": "19.08.2018",
+      "Status": "Reunione",
+      "Category": "Holdays",
+      "ImpacedBuisnesses": "Workers",
+      "ImpacedCountries": "World",
+      "ImpacedEntities": "Finance team",
+      "APACGCLead": "CEO",
+      "Attachment": "2",
+      "Email": "bestandbed@companybad.com",
+      "Description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 17,
+      "RaisedOn": "04.04.2018",
+      "UpdateOn": "18.04.2018",
+      "Status": "New",
+      "Category": "Primary",
+      "ImpacedBuisnesses": "Export",
+      "ImpacedCountries": "Germany",
+      "ImpacedEntities": "Finance team",
+      "APACGCLead": "Asistance Menager",
+      "Attachment": "0",
+      "Email": "baba.yaga@company.com",
+      "Description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 21,
+      "RaisedOn": "10.08.2018",
+      "UpdateOn": "18.10.2018",
+      "Status": "Return",
+      "Category": "Funny",
+      "ImpacedBuisnesses": "Cleaner",
+      "ImpacedCountries": "Poland",
+      "ImpacedEntities": "Service",
+      "APACGCLead": "Basic worker",
+      "Attachment": "9",
+      "Email": "clean.women@slums-attac.com",
+      "Description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    {
+      "Category": "Buissnes",
+      "RaisedOn": "2020-02-20",
+      "UpdateOn": "2020-02-13",
+      "Status": "New",
+      "Email": "michal@gmail.com",
+      "ImpacedCountries": [],
+      "ImpacedBuisnesses": "Poland",
+      "ImpacedEntities": "",
+      "Attachment": "0",
+      "Description": "Waiting for answers",
+      "id": 48
+    }
+  ]
+}
